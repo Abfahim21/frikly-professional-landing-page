@@ -20,6 +20,9 @@
 }
 .hero {
     background-image: url(../images/Rectangle\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 102px 0 361px 61.48px;
     margin-top: 33.68px;
     text-align: center;
