@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -63,12 +65,15 @@
     background: #F5F4F4;
 }
 .membership h2 {
+    font-family: 'Crimson Pro';
+    font-style: normal;
     font-weight: 700;
 font-size: 48px;
 line-height: 20px;
 text-align: center;
 }
 section.membership p.honour-text {
+    font-family: 'Crimson Pro', serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 20px;
@@ -76,6 +81,7 @@ section.membership p.honour-text {
     color: #000000;
 }
 section.membership p.honour-quotes {
+    font-family: 'Crimson Pro', serif;
     font-weight: 300;
 font-size: 20px;
 line-height: 40px;
