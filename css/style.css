@@ -53,3 +53,35 @@
     margin-left: auto;
     margin-right:auto;
 }
+
+.membership {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #F5F4F4;
+}
+.membership h2 {
+    font-weight: 700;
+font-size: 48px;
+line-height: 20px;
+text-align: center;
+}
+section.membership p.honour-text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+section.membership p.honour-quotes {
+    font-weight: 300;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+color: #000000;
+}
+.membership-img {
+    margin: -10px 120px 148px 35px;
+}
