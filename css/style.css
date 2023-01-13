@@ -3,19 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
-.header-image {
+.header {
     position: absolute;
-    left: 35%;
-    right: 36.11%;
-    top: 0.25%;
-    bottom: 98.75%;
+width: 1440px;
+height: 607px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+.header .logo img{
+    position: absolute;
+    height: 63.77547836303711px;
+    width: 416px;
+    left: 504px;
+    top: 15.698486328125px;
+    border-radius: 0px;
 
 }
-.header-image .line {
-    position: relative;
-    left: 34.86%;
-    right: 35.97%;
-    top: 1.37%;
-    bottom: 98.63%;
-    border: 1px solid #000000;
+.hero {
+    position: absolute;
+width: 1440px;
+height: 607px;
+left: 0px;
+top: 0px;
+background-image: url(../images/Rectangle\ 1.png);
 }
