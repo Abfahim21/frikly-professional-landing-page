@@ -3,28 +3,44 @@
     margin: 0;
     box-sizing: border-box;
 }
-.header {
-    position: absolute;
-width: 1440px;
-height: 607px;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
+.header .logo {
+    text-align: center;
 }
-.header .logo img{
-    position: absolute;
-    height: 63.77547836303711px;
+.header .logo img {
     width: 416px;
-    left: 504px;
-    top: 15.698486328125px;
-    border-radius: 0px;
-
+    height: 63.77px;
+    width: 416px;
+    margin-top: 15.7px;
+}
+.header .line1 {
+    content: '';
+    width: 420px;
+    margin-left: 750px;
+    border: 1px solid #000000;
 }
 .hero {
-    position: absolute;
-width: 1440px;
-height: 607px;
-left: 0px;
-top: 0px;
-background-image: url(../images/Rectangle\ 1.png);
+    background-image: url(../images/Rectangle\ 1.png);
+    padding: 102px 0 361px 61.48px;
+    margin-top: 33.68px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.colored {
+    color: #E67136;
+}
+.button-join {
+    font-size: 18px;
+    font-family:'Open Sans';
+    font-weight: 600;
+    line-height: 24.51px;
+    padding: 17px 10px;
+    background: #E67136;
+    box-shadow: -30px 20px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
 }
