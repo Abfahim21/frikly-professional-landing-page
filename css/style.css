@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header-image {
+    position: absolute;
+    left: 35%;
+    right: 36.11%;
+    top: 0.25%;
+    bottom: 98.75%;
+
+}
+.header-image .line {
+    position: relative;
+    left: 34.86%;
+    right: 35.97%;
+    top: 1.37%;
+    bottom: 98.63%;
+    border: 1px solid #000000;
+}
