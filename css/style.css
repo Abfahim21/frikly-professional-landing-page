@@ -61,7 +61,7 @@
 .membership {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     background: #F5F4F4;
@@ -85,11 +85,12 @@ section.membership p.honour-text {
 section.membership p.honour-quotes {
     font-family: 'Crimson Pro';
     font-weight: 300;
-font-size: 20px;
-line-height: 40px;
-text-align: center;
-color: #000000;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
 }
 .membership-img {
     margin: -10px 120px 148px 35px;
 }
+.membership-text {margin: 92px 618px 212px 144px;}
