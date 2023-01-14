@@ -136,8 +136,20 @@ button.membership-button {
 
 .explore .container {
     background-color: #F5F4F4;
+    height: 750px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.explore-img {
+    margin: -100px 160px 0 60px;
+}
+.explore .container .explore-text h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: -160px;
 }
