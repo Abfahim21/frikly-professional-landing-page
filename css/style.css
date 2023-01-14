@@ -64,6 +64,9 @@
     margin-right:auto;
 }
 
+section.membership {
+    margin-bottom: 100px;
+}
 .membership .container {
     display: flex;
     flex-direction: row;
@@ -73,6 +76,7 @@
     flex-wrap: wrap;
     gap: 0;
     justify-content: space-evenly;
+    padding-bottom: 140px;
 }
 .membership h2 {
     font-family: 'Crimson Pro';
@@ -115,4 +119,25 @@ section.membership p.honour-quotes {
 .membership-text p.honour-text {
     margin-top: 20px;
     margin-bottom: 30px;
+}
+button.membership-button {
+    margin-left: 180px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background: #E67136;
+    border: 1px solid #E67136;
+    box-shadow: -30px 20px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 20px 80px;
+}
+
+
+.explore .container {
+    background-color: #F5F4F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
