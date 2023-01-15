@@ -144,10 +144,11 @@ button.membership-button {
     align-items: center;
 }
 .explore-img {
-    margin: -100px 160px 0 60px;
+    margin: -110px 235px 0 30px;
 }
 .explore-text {
     text-align: center;
+    margin-right: 25px;
 }
 .explore .container .explore-text h2 {
     margin-top: -160px;
