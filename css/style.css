@@ -363,6 +363,8 @@ section.brands .container {
     font-weight: 700;
     font-size: 48px;
     color:rgba(230, 113, 54, 1);
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .brand-icons {
     display: flex;
@@ -371,4 +373,5 @@ section.brands .container {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
