@@ -297,6 +297,10 @@ section.pricing {
     line-height: 20px;
     text-align: center;
 }
+
+section.reward {
+    text-align: center;
+}
 section.reward .container {
     width: 1440px;
     background: #F5F4F4;
@@ -318,4 +322,34 @@ section.reward .container {
     font-weight: 700;
     font-family: 'Crimson Pro';
     font-style: normal;
+}
+.reward-text h4 {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.reward-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 60px;
+}
+button.reward-button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.2;
+    color: #FFFFFF;
+    border: 1px solid #E67136;
+    background: #E67136;
+    box-shadow: -30px 20px 30px rgb(0 0 0 / 25%);
+    border-radius: 16px;
+    padding: 10px 80px;
+    margin-bottom: 80px;
 }
