@@ -384,3 +384,10 @@ section.brands .container {
     font-size: 48px;
     margin: 90px;
 }
+.tools-icons {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
