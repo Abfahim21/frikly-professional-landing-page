@@ -375,3 +375,12 @@ section.brands .container {
     align-items: center;
     padding-bottom: 100px;
 }
+.tools-heading h2 {
+    text-align: center;
+    color: rgba(230, 113, 54, 1);
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 90px;
+}
