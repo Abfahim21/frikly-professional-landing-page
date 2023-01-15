@@ -224,3 +224,6 @@ button.pricing-button {
 .pricing-text {
     text-align: center;
 }
+section.pricing {
+    margin-bottom: 100px;
+}
