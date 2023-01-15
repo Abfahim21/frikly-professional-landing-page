@@ -295,6 +295,27 @@ section.pricing {
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
-/* or 125% */
     text-align: center;
+}
+section.reward .container {
+    width: 1440px;
+    background: #F5F4F4;
+}
+.reward-heading {
+    padding: 40px;
+}
+.reward-heading h2 {
+    text-align: center;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    text-align: center;
+}
+.reward-heading h2 span.colored {
+    font-size: 96px;
+    font-weight: 700;
+    font-family: 'Crimson Pro';
+    font-style: normal;
 }
