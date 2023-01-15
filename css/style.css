@@ -230,6 +230,7 @@ section.pricing {
 
 .offer .container {
     background: #FFFFFF;
+    margin-bottom: 140px;
 }
 .offer .offer-heading h2 {
     font-family: 'Crimson Pro';
@@ -238,10 +239,62 @@ section.pricing {
     font-size: 48px;
     line-height: 60px;
     text-align: center;
+    margin-bottom: 70px;
 }
 .offer-icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+.offer-one-icon {
+    margin-bottom: 25px;
+    margin-left: 65px;
+}
+
+.offer-two-icon {
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+.offer-four-icon {
+    margin-bottom: 25px;
+}
+.offer-four-icon {
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+.offer-one-heading {
+    margin-bottom: 20px;
+}
+
+.offer-two-heading {
+    margin-bottom: 25px;
+}
+
+.offer-three-heading {
+    margin-bottom: 25px;
+}
+
+.offer-four-heading {
+    margin-bottom: 25px;
+}
+.offer-icons h3 {
+    font-size: 24px;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.offer-icons p {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+/* or 125% */
+    text-align: center;
 }
