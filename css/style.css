@@ -191,4 +191,36 @@ section.pricing .container {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    padding-bottom: 140px;
+}
+.pricing-text h2 {
+    font-size: 42px;
+    font-style: normal;
+    font-family: 'Crimson Pro';
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+p.pricing-quotes {
+    color: rgba(0, 0, 0, 1);
+    line-height: 2.5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+button.pricing-button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.2;
+    color: #FFFFFF;
+    border: 1px solid #E67136;
+    background: #E67136;
+    box-shadow: -30px 20px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 15px 80px;
+}
+.pricing-text {
+    text-align: center;
 }
