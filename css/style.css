@@ -353,3 +353,22 @@ button.reward-button {
     padding: 10px 80px;
     margin-bottom: 80px;
 }
+section.brands .container {
+    background: rgba(217, 217, 217, 0.2);
+}
+.brand-heading h2 {
+    text-align: center;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color:rgba(230, 113, 54, 1);
+}
+.brand-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
