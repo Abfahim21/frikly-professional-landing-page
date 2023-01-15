@@ -146,6 +146,9 @@ button.membership-button {
 .explore-img {
     margin: -100px 160px 0 60px;
 }
+.explore-text {
+    text-align: center;
+}
 .explore .container .explore-text h2 {
     margin-top: -160px;
     font-family: 'Crimson Pro';
@@ -154,4 +157,28 @@ button.membership-button {
     font-size: 48px;
     line-height: 1.4;
     text-align: center;
+}
+.explore-text p.explore-quotes {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 1);
+}
+button.explore-button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.2;
+    color: #FFFFFF;
+    border: 1px solid #E67136;
+    background: #E67136;
+    box-shadow: -30px 20px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 15px 80px;
 }
