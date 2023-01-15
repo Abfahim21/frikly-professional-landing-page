@@ -227,3 +227,21 @@ button.pricing-button {
 section.pricing {
     margin-bottom: 100px;
 }
+
+.offer .container {
+    background: #FFFFFF;
+}
+.offer .offer-heading h2 {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+.offer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
