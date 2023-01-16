@@ -394,6 +394,7 @@ section.brands .container {
 .tools-icon-one img {
     width: 154px;
     height: 89px;
+    border-radius: 20px;
     margin-bottom: 15px;
     background: rgba(80, 105, 97, 1);
 }
@@ -401,12 +402,14 @@ section.brands .container {
 .tools-icon-two img {
     width: 154px;
     height : 89px;
+    border-radius: 20px;
     margin-bottom: 15px;
     background: rgba(80, 105, 97, 1);
 }
 .tools-icon-three img {
     width: 154px;
     height: 89px;
+    border-radius: 20px;
     margin-bottom: 15px;
     background: rgba(80, 105, 97, 1);
 }
@@ -414,6 +417,7 @@ section.brands .container {
 .tools-icon-four img {
     width: 154px;
     height: 89px;
+    border-radius: 20px;
     margin-bottom: 15px;
     background: rgba(80, 105, 97, 1);
 }
