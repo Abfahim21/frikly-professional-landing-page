@@ -391,3 +391,57 @@ section.brands .container {
     justify-content: center;
     align-items: center;
 }
+.tools-icon-one img {
+    width: 154px;
+    height: 89px;
+    margin-bottom: 15px;
+    background: rgba(80, 105, 97, 1);
+}
+
+.tools-icon-two img {
+    width: 154px;
+    height : 89px;
+    margin-bottom: 15px;
+    background: rgba(80, 105, 97, 1);
+}
+.tools-icon-three img {
+    width: 154px;
+    height: 89px;
+    margin-bottom: 15px;
+    background: rgba(80, 105, 97, 1);
+}
+
+.tools-icon-four img {
+    width: 154px;
+    height: 89px;
+    margin-bottom: 15px;
+    background: rgba(80, 105, 97, 1);
+}
+.tools-icon-one h3 {
+    margin-bottom: 30px;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.tools-icon-two h3 {
+    margin-bottom: 30px;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.tools-icon-three h3 {
+    margin-bottom: 30px;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.tools-icon-four h3 {
+    margin-bottom: 30px;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
