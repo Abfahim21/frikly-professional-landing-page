@@ -449,3 +449,55 @@ section.brands .container {
     font-weight: 700;
     font-size: 24px;
 }
+.tools-icon-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tools-icon-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tools-icon-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tools-icon-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-align: center;
+    color: rgba(230, 113, 54, 1);
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+}
+.welcome {
+    text-align: center;
+}
+.join-button {
+    margin-bottom: 90px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.2;
+    color: #FFFFFF;
+    border: 1px solid #E67136;
+    background: #E67136;
+    box-shadow: -30px 20px 30px rgb(0 0 0 / 25%);
+    border-radius: 16px;
+    padding: 10px 80px;
+}
