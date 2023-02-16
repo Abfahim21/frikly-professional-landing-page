@@ -10,9 +10,19 @@
         margin: auto;
     }
 
+    .hero {
+        margin-bottom: 50px;
+    }
+
     .header .container .line1 {
         width: 415px;
         margin-left: 303px;
+    }
+    .hero h1 {
+        font-size: 59px;
+    }
+    .button-join {
+        margin-top: 90px;
     }
   }
   
