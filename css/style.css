@@ -518,10 +518,3 @@ section.brands .container {
 .footer-contact h4 {
     color: rgba(230, 113, 54, 1);
 }
-
-.line2 {
-    content: '';
-    width: 420px;
-    margin-left: 510px;
-    border: 1px solid #000000;
-}
