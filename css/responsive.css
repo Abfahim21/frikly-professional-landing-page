@@ -1,9 +1,15 @@
 /* Smartphones (portrait) */
 @media only screen and (max-width: 375px) {
-    
+    .container {
+        width: 375px;
+        margin: auto;
+    }
+    .hero {
+        width: 384%;
+    }
   }
   
-  /* iPads (portrait and landscape)  */
+/* iPads (portrait and landscape)  */
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .container {
         width: 1024px;
@@ -26,7 +32,7 @@
     }
   }
   
-  /* Desktops and laptops  */
+/* Desktops and laptops  */
   @media only screen and (min-device-width: 1025px) and (max-device-width: 1224px) {
     .hero {
         width: 119%;
