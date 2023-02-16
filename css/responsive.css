@@ -5,10 +5,18 @@
   
   /* iPads (portrait and landscape)  */
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Styles */
+    .container {
+        width: 1024px;
+        margin: auto;
+    }
+
+    .header .container .line1 {
+        width: 415px;
+        margin-left: 303px;
+    }
   }
   
   /* Desktops and laptops  */
   @media only screen and (min-width: 1224px) {
-    /* Styles */
+    
   }
