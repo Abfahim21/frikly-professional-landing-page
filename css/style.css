@@ -561,14 +561,8 @@ section.brands .container {
     background:  rgba(36, 68, 57, 0.8);
 }
 
-footer-container {
+.footer-container {
     width: 1392px;
-}
-
-.footer .container {
-    color: black;
-    background: white;
-    border-radius: 40px;
 }
 
 .footer-contact h4 {
