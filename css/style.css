@@ -503,11 +503,11 @@ section.brands .container {
 }
 
 .footer {
-    background: rgba(255, 255, 255, 0.8);
+    background:  rgba(36, 68, 57, 0.8)
 }
 .footer .container {
     color: black;
-    background: rgba(36, 68, 57, 0.8);
+    background: white;
     border-radius: 40px;
     display: flex;
     flex-direction: row;
@@ -517,4 +517,11 @@ section.brands .container {
 }
 .footer-contact h4 {
     color: rgba(230, 113, 54, 1);
+}
+
+.line2 {
+    content: '';
+    width: 420px;
+    margin-left: 510px;
+    border: 1px solid #000000;
 }
