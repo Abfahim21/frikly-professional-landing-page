@@ -1,10 +1,5 @@
 /* Smartphones (portrait) */
 @media only screen and (max-width: 375px) {
-    .header {
-        width: 360px;
-        height:100px;
-    }
-
     .header .logo img {
         width: 170px;
     }
