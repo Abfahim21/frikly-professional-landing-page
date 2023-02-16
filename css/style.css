@@ -558,7 +558,11 @@ section.brands .container {
 }
 
 .footer {
-    background:  rgba(0, 134, 87, 0.8)
+    background:  rgba(36, 68, 57, 0.8);
+}
+
+footer-container {
+    width: 1392px;
 }
 
 .footer .container {
