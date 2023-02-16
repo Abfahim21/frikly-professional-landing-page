@@ -5,36 +5,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .container {
     width: 1440px;
     margin: auto;
 }
+
 .header .logo {
     text-align: center;
 }
+
 .header .logo img {
     width: 416px;
     height: 63.77px;
     width: 416px;
     margin-top: 15.7px;
 }
+
 .header .container .line1 {
     content: '';
     width: 420px;
     margin-left: 510px;
     border: 1px solid #000000;
 }
+
 .hero {
     background-image: url(../images/Rectangle\ 1.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .hero .container {
     padding: 102px 0 238px 61.48px;
     margin-top: 33.68px;
     text-align: center;
 }
+
 .hero h1 {
     font-family: 'Crimson Pro', serif;
     font-style: normal;
@@ -44,9 +51,11 @@
     text-align: center;
     color: #FFFFFF;
 }
+
 .colored {
     color: #E67136;
 }
+
 .button-join {
     color: #FFFFFF;
     font-size: 18px;
@@ -67,6 +76,7 @@
 section.membership {
     margin-bottom: 100px;
 }
+
 .membership .container {
     display: flex;
     flex-direction: row;
@@ -78,6 +88,7 @@ section.membership {
     justify-content: space-evenly;
     padding-bottom: 140px;
 }
+
 .membership h2 {
     font-family: 'Crimson Pro';
     font-style: normal;
@@ -86,6 +97,7 @@ section.membership {
     line-height: 1.4;
     text-align: center;
 }
+
 section.membership p.honour-text {
     font-family: 'Crimson Pro';
     font-weight: 500;
@@ -94,6 +106,7 @@ section.membership p.honour-text {
     text-align: center;
     color: #000000;
 }
+
 section.membership p.honour-quotes {
     font-family: 'Crimson Pro';
     font-weight: 300;
@@ -103,6 +116,7 @@ section.membership p.honour-quotes {
     text-align: center;
     color: #000000;
 }
+
 .membership-img {
     display: flex;
     justify-content: flex-end;
@@ -116,10 +130,12 @@ section.membership p.honour-quotes {
     height: 420px;
     margin-top: -40px;
 }
+
 .membership-text p.honour-text {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
 button.membership-button {
     margin-left: 180px;
     color: #FFFFFF;
@@ -133,7 +149,6 @@ button.membership-button {
     padding: 20px 80px;
 }
 
-
 .explore .container {
     background-color: #F5F4F4;
     height: 750px;
@@ -143,13 +158,16 @@ button.membership-button {
     justify-content: center;
     align-items: center;
 }
+
 .explore-img {
     margin: -110px 235px 0 30px;
 }
+
 .explore-text {
     text-align: center;
     margin-right: 25px;
 }
+
 .explore .container .explore-text h2 {
     margin-top: -160px;
     font-family: 'Crimson Pro';
@@ -159,6 +177,7 @@ button.membership-button {
     line-height: 1.4;
     text-align: center;
 }
+
 .explore-text p.explore-quotes {
     font-family: sans-serif;
     font-style: normal;
@@ -170,6 +189,7 @@ button.membership-button {
     margin-bottom: 50px;
     color: rgba(0, 0, 0, 1);
 }
+
 button.explore-button {
     font-family: 'Open Sans';
     font-style: normal;
@@ -193,6 +213,7 @@ section.pricing .container {
     flex-direction: row;
     padding-bottom: 140px;
 }
+
 .pricing-text h2 {
     font-size: 42px;
     font-style: normal;
@@ -202,12 +223,14 @@ section.pricing .container {
     line-height: 1.4;
     margin-bottom: 20px;
 }
+
 p.pricing-quotes {
     color: rgba(0, 0, 0, 1);
     line-height: 2.5;
     text-align: center;
     margin-bottom: 50px;
 }
+
 button.pricing-button {
     font-family: 'Open Sans';
     font-style: normal;
@@ -221,9 +244,11 @@ button.pricing-button {
     border-radius: 16px;
     padding: 15px 80px;
 }
+
 .pricing-text {
     text-align: center;
 }
+
 section.pricing {
     margin-bottom: 100px;
 }
@@ -232,6 +257,7 @@ section.pricing {
     background: #FFFFFF;
     margin-bottom: 140px;
 }
+
 .offer .offer-heading h2 {
     font-family: 'Crimson Pro';
     font-style: normal;
@@ -247,6 +273,7 @@ section.pricing {
     justify-content: space-between;
     align-items: center;
 }
+
 .offer-one-icon {
     margin-bottom: 25px;
     margin-left: 65px;
@@ -256,9 +283,11 @@ section.pricing {
     margin-bottom: 25px;
     margin-left: 40px;
 }
+
 .offer-four-icon {
     margin-bottom: 25px;
 }
+
 .offer-four-icon {
     margin-bottom: 25px;
     margin-left: 35px;
@@ -279,6 +308,7 @@ section.pricing {
 .offer-four-heading {
     margin-bottom: 25px;
 }
+
 .offer-icons h3 {
     font-size: 24px;
     font-family: 'Crimson Pro';
@@ -301,13 +331,16 @@ section.pricing {
 section.reward {
     text-align: center;
 }
+
 section.reward .container {
     width: 1440px;
     background: #F5F4F4;
 }
+
 .reward-heading {
     padding: 40px;
 }
+
 .reward-heading h2 {
     text-align: center;
     font-family: 'Crimson Pro';
@@ -317,12 +350,14 @@ section.reward .container {
     line-height: 60px;
     text-align: center;
 }
+
 .reward-heading h2 span.colored {
     font-size: 96px;
     font-weight: 700;
     font-family: 'Crimson Pro';
     font-style: normal;
 }
+
 .reward-text h4 {
     font-family: 'Crimson Pro';
     font-style: normal;
@@ -330,6 +365,7 @@ section.reward .container {
     font-size: 24px;
     padding-bottom: 15px;
 }
+
 .reward-text p {
     font-family: 'Open Sans';
     font-style: normal;
@@ -339,6 +375,7 @@ section.reward .container {
     color: rgba(0, 0, 0, 1);
     margin-bottom: 60px;
 }
+
 button.reward-button {
     font-family: 'Open Sans';
     font-style: normal;
@@ -353,9 +390,11 @@ button.reward-button {
     padding: 10px 80px;
     margin-bottom: 80px;
 }
+
 section.brands .container {
     background: rgba(217, 217, 217, 0.2);
 }
+
 .brand-heading h2 {
     text-align: center;
     font-family: 'Crimson Pro';
@@ -366,6 +405,7 @@ section.brands .container {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
 .brand-icons {
     display: flex;
     flex-direction: row;
@@ -375,6 +415,7 @@ section.brands .container {
     align-items: center;
     padding-bottom: 100px;
 }
+
 .tools-heading h2 {
     text-align: center;
     color: rgba(230, 113, 54, 1);
@@ -384,6 +425,7 @@ section.brands .container {
     font-size: 48px;
     margin: 90px;
 }
+
 .tools-icons {
     display: flex;
     flex-direction: row;
@@ -391,6 +433,7 @@ section.brands .container {
     justify-content: center;
     align-items: center;
 }
+
 .tools-icon-one img {
     width: 154px;
     height: 89px;
@@ -406,6 +449,7 @@ section.brands .container {
     margin-bottom: 15px;
     background: rgba(80, 105, 97, 1);
 }
+
 .tools-icon-three img {
     width: 154px;
     height: 89px;
@@ -421,6 +465,7 @@ section.brands .container {
     margin-bottom: 15px;
     background: rgba(80, 105, 97, 1);
 }
+
 .tools-icon-one h3 {
     margin-bottom: 30px;
     font-family: 'Crimson Pro';
@@ -428,6 +473,7 @@ section.brands .container {
     font-weight: 700;
     font-size: 24px;
 }
+
 .tools-icon-two h3 {
     margin-bottom: 30px;
     font-family: 'Crimson Pro';
@@ -435,6 +481,7 @@ section.brands .container {
     font-weight: 700;
     font-size: 24px;
 }
+
 .tools-icon-three h3 {
     margin-bottom: 30px;
     font-family: 'Crimson Pro';
@@ -442,6 +489,7 @@ section.brands .container {
     font-weight: 700;
     font-size: 24px;
 }
+
 .tools-icon-four h3 {
     margin-bottom: 30px;
     font-family: 'Crimson Pro';
@@ -449,30 +497,35 @@ section.brands .container {
     font-weight: 700;
     font-size: 24px;
 }
+
 .tools-icon-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .tools-icon-two {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .tools-icon-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .tools-icon-four {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .welcome h2 {
     margin-top: 100px;
     margin-bottom: 30px;
@@ -484,9 +537,11 @@ section.brands .container {
     font-weight: 700;
     font-size: 52px;
 }
+
 .welcome {
     text-align: center;
 }
+
 .join-button {
     margin-bottom: 90px;
     font-family: 'Open Sans';
@@ -503,18 +558,33 @@ section.brands .container {
 }
 
 .footer {
-    background:  rgba(36, 68, 57, 0.8)
+    background:  rgba(0, 134, 87, 0.8)
 }
+
 .footer .container {
     color: black;
     background: white;
     border-radius: 40px;
+}
+
+.footer-contact h4 {
+    color: rgba(230, 113, 54, 1);
+}
+
+.footer-part1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: center;
     align-items: center;
 }
-.footer-contact h4 {
-    color: rgba(230, 113, 54, 1);
+
+.footer-part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-part3 {
+    text-align: center;
 }
