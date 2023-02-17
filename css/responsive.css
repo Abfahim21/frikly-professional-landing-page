@@ -32,9 +32,20 @@
     }
   }
   
-/* Desktops and laptops  */
+/* Small laptops  */
   @media only screen and (min-device-width: 1025px) and (max-device-width: 1224px) {
     .hero {
         width: 119%;
     }
   }
+
+/* large laptops  */
+@media only screen and (min-device-width: 1225px) and (max-device-width: 1440px) {
+  .membership-img {
+    margin-top: 30px;
+  }
+
+  .pricing-image img {
+    margin-top: 35px;
+  }
+}
