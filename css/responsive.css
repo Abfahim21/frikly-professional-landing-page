@@ -1,51 +1,58 @@
 /* Smartphones (portrait) */
 @media only screen and (max-width: 375px) {
-    .container {
-        width: 375px;
-        margin: auto;
-    }
-    .hero {
-        width: 384%;
-    }
+  .container {
+      width: 375px;
+      margin: auto;
   }
-  
+  .hero {
+      width: 384%;
+  }
+}
+
 /* iPads (portrait and landscape)  */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .container {
-        width: 1024px;
-        margin: auto;
-    }
-
-    .hero {
-        margin-bottom: 50px;
-    }
-
-    .header .container .line1 {
-        width: 415px;
-        margin-left: 303px;
-    }
-    .hero h1 {
-        font-size: 59px;
-    }
-    .button-join {
-        margin-top: 90px;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container {
+      margin: auto;
   }
-  
+
+  section.header .container {
+    width: 143%;
+  }
+
+  .hero {
+    width: 143%;
+    margin-bottom: 50px;
+  }
+
+  .header .container .line1 {
+      width: 415px;
+      margin-left: 515px;
+  }
+  .hero h1 {
+      font-size: 59px;
+  }
+  .button-join {
+      margin-top: 90px;
+  }
+}
+
 /* Small laptops  */
-  @media only screen and (min-device-width: 1025px) and (max-device-width: 1224px) {
-    .hero {
-        width: 119%;
-    }
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1224px) {
+  .hero {
+      width: 119%;
   }
+}
 
 /* large laptops  */
 @media only screen and (min-device-width: 1225px) and (max-device-width: 1440px) {
-  .membership-img {
-    margin-top: 30px;
-  }
+.hero {
+  width: 117%;
+}
+.membership-img {
+  margin-top: 30px;
+}
 
-  .pricing-image img {
-    margin-top: 35px;
-  }
+.pricing-image img {
+  margin-top: 35px;
+}
 }
