@@ -11,10 +11,8 @@
 
 /* iPads (portrait and landscape)  */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .container {
-      margin: auto;
-  }
 
+  .header .logo {text-align: center;}
   section.header .container {
     width: 143%;
   }
@@ -45,14 +43,14 @@
 
 /* large laptops  */
 @media only screen and (min-device-width: 1225px) and (max-device-width: 1440px) {
-.hero {
-  width: 117%;
-}
-.membership-img {
-  margin-top: 30px;
-}
+  .hero {
+    width: 117%;
+  }
+  .membership-img {
+    margin-top: 30px;
+  }
 
-.pricing-image img {
-  margin-top: 35px;
-}
+  .pricing-image img {
+    margin-top: 35px;
+  }
 }
