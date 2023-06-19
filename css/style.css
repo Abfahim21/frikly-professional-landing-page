@@ -71,6 +71,7 @@
     margin-top: 64px;
     margin-left: auto;
     margin-right:auto;
+    cursor: pointer;
 }
 
 section.membership {
@@ -86,7 +87,7 @@ section.membership {
     flex-wrap: wrap;
     gap: 0;
     justify-content: space-evenly;
-    padding-bottom: 140px;
+    padding-bottom: 65px;
 }
 
 .membership h2 {
@@ -122,7 +123,7 @@ section.membership p.honour-quotes {
     justify-content: flex-end;
     width: 460px;
     height: 580px;
-    margin-top: -10px;
+    margin-top: 50px;
 }
 
 .membership-text {
@@ -147,6 +148,7 @@ button.membership-button {
     box-shadow: -30px 20px 30px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     padding: 20px 80px;
+    cursor: pointer;
 }
 
 .explore .container {
@@ -160,7 +162,7 @@ button.membership-button {
 }
 
 .explore-img {
-    margin: -110px 235px 0 30px;
+    margin: 0 235px 0 30px;
 }
 
 .explore-text {
@@ -202,6 +204,7 @@ button.explore-button {
     box-shadow: -30px 20px 30px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     padding: 15px 80px;
+    cursor: pointer;
 }
 
 section.pricing .container {
@@ -243,6 +246,7 @@ button.pricing-button {
     box-shadow: -30px 20px 30px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     padding: 15px 80px;
+    cursor: pointer;
 }
 
 .pricing-text {
@@ -389,6 +393,7 @@ button.reward-button {
     border-radius: 16px;
     padding: 10px 80px;
     margin-bottom: 80px;
+    cursor: pointer;
 }
 
 section.brands .container {
@@ -555,6 +560,7 @@ section.brands .container {
     box-shadow: -30px 20px 30px rgb(0 0 0 / 25%);
     border-radius: 16px;
     padding: 10px 80px;
+    cursor: pointer;
 }
 
 .footer {
@@ -585,4 +591,15 @@ section.brands .container {
 
 .footer-part3 {
     text-align: center;
+}
+.pricing-image {
+    margin-top: 62px;
+    margin-bottom: -60px;
+}
+.footer-icons {
+    display: flex;
+}
+
+.footer-icons .icon {
+    margin: 15px;
 }
